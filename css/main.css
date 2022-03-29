@@ -1,0 +1,155 @@
+.hidden{
+    display: none;
+}
+
+body {
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+  }
+
+.container{
+    margin: 0 auto;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.nav{
+    background-color: blueviolet;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    
+    
+
+}
+
+.logo{
+    background-color: blueviolet;
+    width: 80px;
+    height: 43px;
+    text-align: center;
+    margin-left: 175px;
+}
+
+.beginnings{
+    
+}
+
+.beginningsimage{
+    background-color: aquamarine;
+    width: 420px;
+    height: 240px;
+    text-align: center;
+    float: inline-start;
+}
+
+.beginningstext{
+    background-color: blueviolet;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 404px;
+    height: 213px;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+.approach{
+    padding-top: 10px;
+}
+.approachtext{
+    background-color: pink;
+    width: 404px;
+    height: 213px;
+    text-align: center;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.mainFooter{
+    padding-top: 20px;
+}
+
+.footerlogo{
+    background-color: darkblue;
+    width: 70px;
+    height: 43px;
+    text-align: center;
+    float: left;
+
+}
+.footerNav{
+    background-color: cyan;
+    width: 342px;
+    height: 43px;
+    text-align: center;
+    float: left;
+}
+
+@media screen and (min-width: 641px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
+    .nav{
+        background-color: darkmagenta;
+        width: 73px;
+        height: 52px;
+        float: left;
+        margin-top: 50px;
+        
+    }
+    .logo{
+        background-color: darkmagenta;
+        width: 274px;
+        height: 148px;
+        margin-left: 750px;
+        float: left;
+    }
+    .beginningsimage{
+        background-color: blue;
+        width: 780px;
+        height: 615px;
+        text-align: center;
+        float: left;
+        
+    }
+
+    .beginningstext{
+        background-color: peru;
+        padding-top: 10px;
+        width: 1036px;
+        height: 556px;
+        text-align: center;
+        margin-left: 800px;
+    
+        
+    }
+
+    .approachtext{
+        background-color: red;
+        padding-top: 10px;
+        width: 1850px;
+        height: 448px;
+        text-align: center;
+    }
+    .footerlogo{
+        background-color: yellowgreen;
+        width: 152px;
+        height: 93px;
+        text-align: center;
+        float: left;
+    
+    }
+    .footerNav{
+        background-color: chartreuse;
+        width: 916px;
+        height: 93px;
+        text-align: center;
+        float: left;
+    }
+
